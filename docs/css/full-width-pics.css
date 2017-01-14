@@ -54,6 +54,18 @@ h1 {
     font-weight: 800;
 }
 
+h2 {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+    font-size: 5em;
+}
+
+img {
+    position: relative;
+}
+
 section {
     padding: 75px 0;
 }
@@ -69,6 +81,10 @@ section {
 
 .section-paragraph {
     margin: 30px 0;
+}
+
+.thumbnail {
+    border: none!important;
 }
 
 footer {
