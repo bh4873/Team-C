@@ -18,8 +18,15 @@ body {
 }
 
 .image-bg-fluid-height {
-	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
-    padding: 100px 0;
+	background: url('https://images.unsplash.com/photo-1455729552865-3658a5d39692') no-repeat center center fixed;
+    padding: 100px 100px;
+    height: 100vh;
+    background-size: 100vw auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
 }
 
 .image-bg-fixed-height {
@@ -29,6 +36,11 @@ body {
 
 .img-center {
 	margin: 0 auto;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 800;
 }
 
 section {
