@@ -34,6 +34,17 @@ body {
     height: 450px;
 }
 
+.image-bg-overview {
+    background: url('http://cdn.csswinner.com/blog/wp-content/uploads/2014/12/1.jpg') no-repeat center center fixed;
+    background-size: 100vw auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
 .img-center {
 	margin: 0 auto;
 }
