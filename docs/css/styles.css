@@ -113,13 +113,6 @@ button {
   outline: none;
 }
 
-button:focus {
-  background: #7b97e7;
-}
-
-button:active {
-  background: #566dad;
-}
 
 .navbar {
   position: fixed!important;
@@ -128,23 +121,28 @@ button:active {
   left: 0;
   /*background-color: #e6ebf1;*/
   /*border-bottom: 1px solid #e6ebf1;*/
-  background: rgba(0,0,0,);
+  background: rgba(0,0,0);
 }
 
 
-.navbar .navbar-nav > li {
+.navbar .navbar-nav {
   margin: 0 20px 0 20px;
 }
 
-.navbar .navbar-nav > li > a {
+.navbar .navbar-nav > a {
   color: white;
+  margin: 0 20px 0 20px;
+  font-size: 18px;
+  font-weight: 200;
 }
 
 .navbar-section--right {
+  margin: 20px;
   float: right;
 }
 
 .navbar-section--left {
+  margin-top: 20px;
   float: left;
 }
 
