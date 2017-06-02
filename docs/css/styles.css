@@ -29,17 +29,15 @@ form {
 h1 {
   font-size: 30px;
   font-weight: 200!important;
-  /*color: #8898AA!important;*/
-  color: white;
+  color: #8898AA;
   margin: 10px;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 200!important;
-  /*color: #8898AA!important;*/
-  color: white;
+  color: #8898AA;
 }
 
 p, li {
@@ -129,8 +127,17 @@ button {
   margin: 0 20px 0 20px;
 }
 
-.navbar .navbar-nav > a {
+.light a {
+  color: #8898AA;
+
+}
+
+.dark a {
   color: white;
+}
+
+.navbar .navbar-nav > a {
+  /*color: white;*/
   margin: 0 20px 0 20px;
   font-size: 18px;
   font-weight: 200;
@@ -159,11 +166,13 @@ button {
 }
 
 .home h1 {
+  color: white;
   font-size: 82px;
   margin: 0;
 }
 
 .home h3 {
+  color: white;
   font-size: 24px;
   margin: 0;
   text-align: center;
