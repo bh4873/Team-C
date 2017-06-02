@@ -29,14 +29,17 @@ form {
 h1 {
   font-size: 30px;
   font-weight: 200!important;
-  color: #8898AA!important;
+  /*color: #8898AA!important;*/
+  color: white;
   margin: 10px;
+  font-weight: 700;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200!important;
-  color: #8898AA!important;
+  /*color: #8898AA!important;*/
+  color: white;
 }
 
 p, li {
@@ -123,29 +126,18 @@ button:active {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #e6ebf1;
-  border-color: #e6ebf1;
+  /*background-color: #e6ebf1;*/
+  /*border-bottom: 1px solid #e6ebf1;*/
+  background: rgba(0,0,0,);
 }
 
 
 .navbar .navbar-nav > li {
-  background-color: #E6EBF1;
   margin: 0 20px 0 20px;
 }
 
-.navbar .navbar-nav > li:hover {
-  background-color: #E6EBF1;
-}
-
-
 .navbar .navbar-nav > li > a {
-  color: #8898AA;
-}
-
-.navbar .navbar-nav > li > a:hover,
-.navbar .navbar-nav > li > a:focus {
-  color: #486280;
-  background-color: #E6EBF1; 
+  color: white;
 }
 
 .navbar-section--right {
@@ -169,19 +161,32 @@ button:active {
 }
 
 .home h1 {
-  font-size: 48px;
+  font-size: 82px;
+  margin: 0;
 }
 
 .home h3 {
+  font-size: 24px;
+  margin: 0;
   text-align: center;
 }
 
 .home a {
-  font-size: 20px;
+  font-size: 24px;
+  color: white;
+  text-decoration: underline;
 }
 
 .home .header {
-  margin-bottom: 50px;
+  background-image: url('../assets/patientdoctor.jpg');
+  background-size: 100%;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white!important;
 }
 
 .home .description {
@@ -200,7 +205,12 @@ button:active {
 
 .description--item img {
   width: 128px;
-  opacity: 0.5;
+  /*opacity: 0.5;*/
+}
+
+.bottom {
+  position: fixed;
+  bottom: 25px;
 }
 
 .profile p {
