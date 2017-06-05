@@ -220,9 +220,45 @@ button {
   bottom: 25px;
 }
 
-.profile p {
-  text-align: left;
-  padding: 20px;
+.profile {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile--left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.profile .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.profile .icon {
+  width: 15px;
+  margin-right: 10px;
+  opacity: 0.4;
+}
+
+.profile img {
+  width: 250px;
+}
+
+.profile h1 {
+  font-size: 72px;
+}
+
+.profile .bold {
+  font-weight: 700;
+  color: #8898AA;
+}
+
+.profile--desc {
+  border: 1px solid #8898AA;
+  margin-top: 20px;
 }
 
 .download {
