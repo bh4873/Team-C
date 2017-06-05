@@ -118,7 +118,9 @@ button {
   top: 0;
   left: 0;
   /*background-color: #e6ebf1;*/
-  /*border-bottom: 1px solid #e6ebf1;*/
+  /*border-bottom: 1px solid #7b97e7;*/
+  box-shadow: 0 -10px 14px 0 rgba(49,49,93,0.10),
+              0 3px 6px 0 rgba(0,0,0,0.08);
   background: rgba(0,0,0);
 }
 
